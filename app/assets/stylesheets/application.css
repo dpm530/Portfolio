@@ -12,7 +12,7 @@ footer p{
    color: #FFFFFF;
 }
 div.jumbotron{
-   background-image: url("http://www.rainbowbuilders.org/Bolivia/La-Paz-sunset/La-Paz-Bolivia_2.JPG");
+   background-image: url("/assets/illimani.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
