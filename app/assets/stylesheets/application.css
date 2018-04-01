@@ -1,9 +1,19 @@
-.navbar{
-   margin-bottom: 0;
-   border-radius: 0;
-   background-color: #f2f2f2;
+nav .container-fluid{
+   background-color: #1b1b1b;
+}
+nav a{
+   color: #FFFFFF;
 }
 footer{
-   background-color: #f2f2f2;
+   background-color: #222222;
    padding: 25px;
+}
+footer p{
+   color: #FFFFFF;
+}
+div.jumbotron{
+   background-image: url("http://www.rainbowbuilders.org/Bolivia/La-Paz-sunset/La-Paz-Bolivia_2.JPG");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
