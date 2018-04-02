@@ -1,19 +1,69 @@
 nav .container-fluid{
    background-color: #1b1b1b;
+   height: 55px;
 }
-nav a{
+nav.navbar{
+   margin-bottom: -1px;
+}
+a.navbar-brand{
    color: #FFFFFF;
+   font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+}
+nav ul a{
+   color: rgba(255,255,255,0.85);
+   padding: 0 0 3px 0;
+   font-weight: 200;
+   font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
+   letter-spacing: 1px;
+   border-radius: 0;
+   border: 0;
+   font-size: 15px;
+   text-shadow: none;
+   margin-bottom: 0;
+   margin-top: 0;
 }
 footer{
    background-color: #222222;
    padding: 25px;
+   height: 55px;
 }
 footer p{
    color: #FFFFFF;
 }
 div.jumbotron{
-   background-image: url("/assets/illimani.jpg");
+   background-image: url("/assets/la_paz.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   background-color: : rgba(0,0,0,0.2);
+   height: 500px;
+}
+div.container.text-center{
+   color: white;
+   font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
+   background:rgba(0,0,0,0.6);
+   padding-bottom: 15px;
+   max-width: 470px;
+   font-weight: 350;
+   border-radius: 10px;
+}
+/* div.jumbotron h1,a{
+   color: white;
+   background:rgba(0,0,0,0.6);
+   display: inline-block;
+   padding: 10px;
+   border-radius: 10px;
+   font-weight: 400;
+} */
+/* div.jumbotron p{
+   color: white;
+   background:rgba(0,0,0,0.6);
+   display: inline-block;
+   padding: 10px;
+   border-radius: 10px; */
+}
+div.container-fluid.text-center{
+   padding-bottom: 20px;
 }
