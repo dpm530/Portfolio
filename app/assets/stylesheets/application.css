@@ -1,3 +1,6 @@
+HTML, body{
+   height:100%;
+}
 nav .container-fluid{
    background-color: #1b1b1b;
    height: 55px;
@@ -23,14 +26,6 @@ nav ul a{
    text-shadow: none;
    margin-bottom: 0;
    margin-top: 0;
-}
-footer{
-   background-color: #222222;
-   padding: 25px;
-   height: 55px;
-}
-footer p{
-   color: #FFFFFF;
 }
 div.jumbotron{
    background-image: url("/assets/la_paz.jpg");
@@ -62,8 +57,20 @@ div.container.text-center{
    background:rgba(0,0,0,0.6);
    display: inline-block;
    padding: 10px;
-   border-radius: 10px; */
-}
+   border-radius: 10px;
+}   */
+
 div.container-fluid.text-center{
    padding-bottom: 20px;
+}
+div.tab-content img{
+   width: 60px;
+   height: 60px;
+}
+footer{
+   background-color: #222222;
+   padding: 25px;
+}
+footer p{
+   color: #FFFFFF;
 }
