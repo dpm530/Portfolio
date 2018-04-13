@@ -1,20 +1,20 @@
 HTML, body{
    height:100%;
 }
-nav .container-fluid{
+/* nav .container-fluid{
    background-color: #1b1b1b;
    height: 55px;
-}
-nav.navbar{
+} */
+/* nav.navbar{
    margin-bottom: -1px;
-}
-a.navbar-brand{
+} */
+/* a.navbar-brand{
    color: #FFFFFF;
    font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
    font-weight: 600;
    font-size: 30px;
-}
-nav ul a{
+} */
+/* nav ul a{
    color: rgba(255,255,255,0.85);
    padding: 0 0 3px 0;
    font-weight: 200;
@@ -26,15 +26,15 @@ nav ul a{
    text-shadow: none;
    margin-bottom: 0;
    margin-top: 0;
-}
-div.jumbotron{
+} */
+/* div.jumbotron{
    background-image: url("/assets/la_paz.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    background-color: : rgba(0,0,0,0.2);
    height: 500px;
-}
+} */
 div.container.text-center{
    color: white;
    font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
@@ -70,7 +70,5 @@ div.tab-content img{
 footer{
    background-color: #222222;
    padding: 25px;
-}
-footer p{
    color: #FFFFFF;
 }
