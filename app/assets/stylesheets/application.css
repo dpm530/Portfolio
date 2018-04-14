@@ -5,9 +5,10 @@ HTML, body{
    background-color: #1b1b1b;
    height: 55px;
 } */
-/* nav.navbar{
-   margin-bottom: -1px;
-} */
+nav.navbar{
+   border-radius: 0px;
+   margin-bottom: -20px;
+}
 /* a.navbar-brand{
    color: #FFFFFF;
    font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
@@ -27,22 +28,25 @@ HTML, body{
    margin-bottom: 0;
    margin-top: 0;
 } */
-/* div.jumbotron{
-   background-image: url("/assets/la_paz.jpg");
+#indexPage{
+   background-image: url("/assets/indexPage.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   background-color: : rgba(0,0,0,0.2);
-   height: 500px;
-} */
+   height: 550px;
+}
 #welcome{
    color: white;
    font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
-   background:rgba(0,0,0,0.6);
-   padding-bottom: 15px;
+   background:rgba(0,0,0,0.7);
+   padding-bottom: 20px;
    max-width: 470px;
    font-weight: 350;
-   border-radius: 10px;
+   border-radius: 5px;
+   margin-top: 60px;
+}
+#projects{
+   padding-top:20px;
 }
 /* div.jumbotron h1,a{
    color: white;
