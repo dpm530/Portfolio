@@ -89,9 +89,9 @@ div.tab-content img{
    width: 60px;
    height: 60px;
 }
-#contact{
+/* #contact{
    width: 670px;
-}
+} */
 footer{
    background-color: #222222;
    padding: 25px;
@@ -108,4 +108,11 @@ footer{
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+}
+#skillsFooter{
+   margin-top: 70px;
+}
+.tab-content .container{
+   padding-left: 30px;
+   padding-bottom: 15px;
 }
