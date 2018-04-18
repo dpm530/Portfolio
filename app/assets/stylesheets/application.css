@@ -98,3 +98,14 @@ footer{
    color: #FFFFFF;
    border-radius: 0px;
 }
+#indexFooter{
+   background:rgba(0,0,0,0);
+}
+#indexFooter i {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
