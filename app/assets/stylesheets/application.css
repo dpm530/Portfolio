@@ -5,9 +5,19 @@ HTML, body{
    background-color: #1b1b1b;
    height: 55px;
 } */
+#indexBackground{
+   background-image: url("/assets/indexPage.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#indexNav{
+   background:rgba(0,0,0,0.7);
+   border-radius: 0px;
+   /* margin-bottom: -20px; */
+}
 nav.navbar{
    border-radius: 0px;
-   margin-bottom: -20px;
 }
 /* a.navbar-brand{
    color: #FFFFFF;
@@ -28,22 +38,30 @@ nav.navbar{
    margin-bottom: 0;
    margin-top: 0;
 } */
-#indexPage{
+/* #indexPage{
    background-image: url("/assets/indexPage.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    height: 550px;
-}
+} */
 #welcome{
    color: white;
    font-family: "Source Sans Pro","Helvetica Neue",Arial,Helvetica,sans-serif;
-   background:rgba(0,0,0,0.7);
+   /* background:rgba(0,0,0,0.7); */
    padding-bottom: 20px;
    max-width: 470px;
-   font-weight: 350;
+   /* font-weight: 350; */
    border-radius: 5px;
-   margin-top: 60px;
+   margin-top: 65px;
+   font-size: 20px;
+   text-shadow: 2px 2px 5px #000000;
+}
+#welcome h1{
+   font-size: 6.0rem;
+   font-weight: bold;
+   color: white;
+   text-shadow: 2px 2px 5px #000000;
 }
 #projects{
    padding-top:20px;
@@ -78,4 +96,5 @@ footer{
    background-color: #222222;
    padding: 25px;
    color: #FFFFFF;
+   border-radius: 0px;
 }
