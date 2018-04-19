@@ -101,16 +101,26 @@ footer{
 #indexFooter{
    background:rgba(0,0,0,0);
 }
-#indexFooter i {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+#indexFooter a{
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   color: white;
 }
 #skillsFooter{
    margin-top: 70px;
+}
+footer i{
+   padding: 5px;
+   font-size: 15px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   color: white;
 }
 .tab-content .container{
    padding-left: 30px;
