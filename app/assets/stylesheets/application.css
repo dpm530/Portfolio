@@ -54,6 +54,7 @@ nav.navbar{
    /* font-weight: 350; */
    border-radius: 5px;
    margin-top: 65px;
+   margin-bottom: 50px;
    font-size: 20px;
    text-shadow: 2px 2px 5px #000000;
 }
