@@ -103,4 +103,7 @@ footer i{
       margin-top: 0px;
       margin-bottom:0px;
    }
+   #projects .container .row{
+      margin-bottom: 100px;
+   }
 }
