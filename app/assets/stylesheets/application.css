@@ -1,10 +1,7 @@
 HTML, body{
    height:100%;
 }
-/* nav .container-fluid{
-   background-color: #1b1b1b;
-   height: 55px;
-} */
+
 #indexBackground{
    background-image: url("/assets/indexPage.jpg");
    background-size: cover;
