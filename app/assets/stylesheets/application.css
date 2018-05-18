@@ -37,9 +37,14 @@ nav.navbar{
    font-size: 25px;
 }
 #about .row{
-   background-color: #eee;
+   /* background-color: #eee; */
    padding: 10px;
    border-radius: 5px;
+}
+#about img{
+   width:75%;
+   height:auto;
+   border-radius: 50%;
 }
 #about .col-sm-6 p{
    text-align: justify;
