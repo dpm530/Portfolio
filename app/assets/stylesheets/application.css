@@ -54,12 +54,12 @@ nav.navbar{
    /* background: #eee; */
    padding:15px;
 }
-div.container-fluid.text-center{
+/* div.container-fluid.text-center{
    padding-bottom: 20px;
-}
+} */
 div.tab-content img{
-   width: 60px;
-   height: 60px;
+   width: 125px;
+   height: 125px;
 }
 
 #indexFooter{
@@ -89,7 +89,7 @@ div.tab-content img{
 }
 footer{
    background-color: #222222;
-   padding: 25px;
+   padding: 5px;
    color: #FFFFFF;
    border-radius: 0px;
 }
