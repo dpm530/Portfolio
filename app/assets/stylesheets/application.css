@@ -51,7 +51,7 @@ nav.navbar{
    font-size: 17px;
 }
 #projects .row{
-   background: #eee;
+   /* background: #eee; */
    padding:15px;
 }
 div.container-fluid.text-center{
