@@ -57,7 +57,7 @@ nav.navbar{
 /* div.container-fluid.text-center{
    padding-bottom: 20px;
 } */
-div.tab-content img{
+#skills img{
    width: 125px;
    height: 125px;
 }
@@ -73,9 +73,6 @@ div.tab-content img{
    text-decoration: none;
    margin: 5px 2px;
    color: white;
-}
-#skillsFooter{
-   margin-top: 70px;
 }
 .tab-content .container{
    padding-left: 30px;
@@ -93,8 +90,12 @@ footer{
    color: #FFFFFF;
    border-radius: 0px;
 }
+footer p{
+   margin: 5px 2px;
+   color: #7b7b7b;
+}
 footer i{
-   padding: 5px;
+   /* padding: 5px; */
    font-size: 15px;
    width: 50px;
    text-align: center;
