@@ -6,7 +6,7 @@ class AppController < ApplicationController
    def about
    end
 
-   def projects
+   def portfolio
    end
 
    def skills
@@ -14,6 +14,6 @@ class AppController < ApplicationController
 
    def contact
    end
-      
+
 
 end
