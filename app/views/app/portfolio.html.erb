@@ -15,7 +15,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                </button>
-               <a class="navbar-brand" href="/">Daniel Palacios</a>
+               <a class="navbar-brand" href="/"><i id="navSymbol" class="fa fa-code"></i> Daniel Palacios</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                <ul class="nav navbar-nav navbar-right">
@@ -44,44 +44,10 @@
                      <p>Full-stack application where users can create a profile to store their medical history.</p>
                      <hr>
                      <p>Technologies used: Python, Django, SQLite, HTML, CSS, JavaScript, Bootstrap, Git</p>
-                     <a href="https://github.com/dpm530/my_medical" class="btn btn-default" target="_blank">Github</a>
-                     <a href="" class="btn btn-default" data-toggle="modal" data-target="#myMedical">Details</a>
+                     <a href="https://github.com/dpm530/my_medical" class="btn btn-warning" target="_blank">Github</a>
+                     <!-- <a href="" class="btn btn-primary" data-toggle="modal" data-target="#myMedical">Details</a> -->
                   </div><br>
                   <div class="modal fade" role="dialog" id="myMedical">
-                     <div class="modal-dialog">
-
-                        <div class="modal-content">
-                           <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal">&times;</button>
-                              <h4 class="modal-title">Details</h4>
-                           </div>
-                           <div class="modal-body">
-                              <p>Some text in the modal.</p>
-                           </div>
-                           <div class="modal-footer">
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                           </div>
-                        </div>
-
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3">
-               <div class="card">
-                  <a href="http://mayraplusmario.com/" target="_blank">
-                     <img src="/assets/mayraplusmario.png" alt="" style="width:100%; height:150px;">
-                  </a>
-                  <div class="container-fluid">
-                     <h4><b>Mayra + Mario</b></h4>
-                     <p>Full-stack application containing important details about a couple's wedding.RSVP functionality.</p>
-                     <hr>
-                     <p>Technologies used: Ruby, Rails, PostgreSQL, HTML, CSS, Git, JavaScript, Bootstrap,AWS EC2</p>
-                     <a href="http://mayraplusmario.com/" class="btn btn-default" target="_blank">Live Site</a>
-                     <a href="https://github.com/dpm530/mayra_plus_mario.git" class="btn btn-default" target="_blank">Github</a>
-                     <a class="btn btn-default" data-toggle="modal" data-target="#mayra_plus_mario">Details</a>
-                  </div><br>
-                  <div class="modal fade" role="dialog" id="mayra_plus_mario">
                      <div class="modal-dialog">
 
                         <div class="modal-content">
@@ -105,17 +71,55 @@
             </div>
             <div class="col-md-3">
                <div class="card">
+                  <a href="http://mayraplusmario.com/" target="_blank">
+                     <img src="/assets/mayraplusmario.png" alt="" style="width:100%; height:150px;">
+                  </a>
+                  <div class="container-fluid">
+                     <h4><b>Mayra + Mario</b></h4>
+                     <p>Full-stack application containing important details about a couple's wedding.RSVP functionality.</p>
+                     <hr>
+                     <p>Technologies used: Ruby, Rails, PostgreSQL, HTML, CSS, Git, JavaScript, Bootstrap,AWS EC2</p>
+                     <a href="http://mayraplusmario.com/" class="btn btn-success" target="_blank">Live Site</a>
+                     <a href="https://github.com/dpm530/mayra_plus_mario.git" class="btn btn-warning" target="_blank">Github</a>
+                     <a class="btn btn-primary" data-toggle="modal" data-target="#mayra_plus_mario">Details</a>
+                  </div><br>
+                  <div class="modal fade" role="dialog" id="mayra_plus_mario">
+                     <div class="modal-dialog">
+
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Details</h4>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li>RSVP functionality with validation.</li>
+                                 <li>Guestbook section with validation.</li>
+                                 <li>The bride and groom can login to a separate page to see everyone who has RSVP'd.</li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="card">
                   <a href="https://github.com/dpm530/Ruby_Stack/tree/master/rails_II/belt_reviewer" target="_blank">
                      <img src="/assets/groupup.png" alt="Avatar" style="width:100%; height:150px;">
                   </a>
                   <div class="container-fluid">
                      <h4><b>GroupUp</b></h4>
-                     <p>Full-stack application Meetup clone where users can login, signup, create and join events.</p>
+                     <p>Full-stack application (meetup clone) where users can login, signup, create and join events.</p>
                      <hr>
                      <p>Technologies used: Ruby, Rails, PostgreSQL, HTML, CSS, Git, JavaScript, Bootstrap</p>
                      <!-- <a href="" class="btn btn-default" target="_blank">Live Site</a> -->
-                     <a href="https://github.com/dpm530/Ruby_Stack/tree/master/rails_II/belt_reviewer" class="btn btn-default" target="_blank">Github</a>
-                     <a class="btn btn-default" data-toggle="modal" data-target="#groupUp">Details</a>
+                     <a href="https://github.com/dpm530/Ruby_Stack/tree/master/rails_II/belt_reviewer" class="btn btn-warning" target="_blank">Github</a>
+                     <a class="btn btn-primary" data-toggle="modal" data-target="#groupUp">Details</a>
                   </div><br>
                   <div class="modal fade" role="dialog" id="groupUp">
                      <div class="modal-dialog">
@@ -128,6 +132,12 @@
                            <div class="modal-body">
                               <ul>
                                  <li>Login and registration with validation.</li>
+                                 <li>Logout feature.</li>
+                                 <li>Users can edit their profile information.</li>
+                                 <li>Logged in users can create and host an event. Hosts can edit and delete their own events.</li>
+                                 <li>Events are validated before being created.</li>
+                                 <li>Users can join other users events.</li>
+                                 <li>Each event has a discussion area for users to leave comments.</li>
                               </ul>
                            </div>
                            <div class="modal-footer">
@@ -149,9 +159,9 @@
                      <p>Full-stack application where users can login/signup, add book reviews and review other users books.</p>
                      <hr>
                      <p>Technologies used: Python, Django, SQLite, HTML, CSS, JavaScript, Bootstrap, Git</p>
-                     <a href="" class="btn btn-default" target="_blank">Live Site</a>
-                     <a href="https://github.com/dpm530/Python_Stack/tree/master/Fullstack_Django/belt_reviewer" class="btn btn-default" target="_blank">Github</a>
-                     <a class="btn btn-default" data-toggle="modal" data-target="#greatReads">Details</a>
+                     <!-- <a href="" class="btn btn-default" target="_blank">Live Site</a> -->
+                     <a href="https://github.com/dpm530/Python_Stack/tree/master/Fullstack_Django/belt_reviewer" class="btn btn-warning" target="_blank">Github</a>
+                     <a class="btn btn-primary" data-toggle="modal" data-target="#greatReads">Details</a>
                   </div><br>
                   <div class="modal fade" role="dialog" id="greatReads">
                      <div class="modal-dialog">
@@ -159,10 +169,16 @@
                         <div class="modal-content">
                            <div class="modal-header">
                               <button type="button" class="close" data-dismiss="modal">&times;</button>
-                              <h4 class="modal-title">Modal Header</h4>
+                              <h4 class="modal-title">Details</h4>
                            </div>
                            <div class="modal-body">
-                              <p>Some text in the modal.</p>
+                              <ul>
+                                 <li>Login and registration with validation.</li>
+                                 <li>Logout feature.</li>
+                                 <li>Users can add a book title and review.</li>
+                                 <li>Users can review other people's book posts.</li>
+                                 <li>Users can access other user's profile to see their book posts.</li>
+                              </ul>
                            </div>
                            <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -175,26 +191,28 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-md-3">
+            <!-- <div class="col-md-3">
                <div class="card">
                   <img src="https://placehold.it/1200x400?text=IMAGE" alt="" style="width:100%">
                   <div class="container">
-                     <h4><b>The Wall</b></h4>
+                     <h4><b>Share It</b></h4>
                      <p></p>
                      <a href="" class="btn btn-default" target="_blank">Live Site</a>
                      <a href="" class="btn btn-default" target="_blank">Github</a>
-                     <a class="btn btn-default" data-toggle="modal" data-target="#theWall">Details</a>
+                     <a class="btn btn-default" data-toggle="modal" data-target="#shareit">Details</a>
                   </div><br>
-                  <div class="modal fade" role="dialog" id="theWall">
+                  <div class="modal fade" role="dialog" id="shareit">
                      <div class="modal-dialog">
 
                         <div class="modal-content">
                            <div class="modal-header">
                               <button type="button" class="close" data-dismiss="modal">&times;</button>
-                              <h4 class="modal-title">Modal Header</h4>
+                              <h4 class="modal-title">Details</h4>
                            </div>
                            <div class="modal-body">
-                              <p>Some text in the modal.</p>
+                              <ul>
+                                 <li></li>
+                              </ul>
                            </div>
                            <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -204,7 +222,7 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
             <!-- <div class="col-md-3">
                <div class="card">
                   <img src="https://placehold.it/1200x400?text=IMAGE" alt="" style="width:100%">

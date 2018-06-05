@@ -1,6 +1,10 @@
 html,body{
    height: 100%;
 }
+#navSymbol{
+   color: #4caf50;
+   font-weight: bold;
+}
 #indexBackground{
    background-image: url("/assets/indexPage.jpg");
    background-size: cover;
@@ -66,6 +70,13 @@ nav.navbar{
    padding:15px;
    font-family: 'Lato', sans-serfif;
    font-weight: 400;
+   font-size: 15px;
+}
+#portfolio .row .modal-content{
+   padding:15px;
+   font-family: 'Lato', sans-serfif;
+   font-weight: 400;
+   font-size: 20px;
 }
 #portfolio .container h2{
    font-family: 'Lato', sans-serfif;
@@ -126,6 +137,9 @@ nav.navbar{
 }
 #contact .row a{
    font-size: 19px;
+}
+#contact .row i.fa.fa-download{
+   font-size: 1em;
 }
 footer{
    background-color: #222222;
