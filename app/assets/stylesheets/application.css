@@ -54,6 +54,9 @@ nav.navbar{
    font-weight: 400;
    font-size: 40px;
 }
+#about .page-header{
+   border-bottom: 1px solid #333;
+}
 #about img{
    width:75%;
    height:auto;
@@ -78,18 +81,23 @@ nav.navbar{
    font-weight: 400;
    font-size: 20px;
 }
-#portfolio .container h2{
+#portfolio .page-header h2{
    font-family: 'Lato', sans-serfif;
    font-weight: 400;
    font-size: 40px;
 }
+#portfolio .page-header{
+   border-bottom: 1px solid #333;
+}
+#portfolio .card hr{
+   border-top: 1px solid black;
+}
 .card {
-
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
 }
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 .container {
     padding: 2px 16px;
@@ -98,6 +106,9 @@ nav.navbar{
    font-family: 'Lato', sans-serfif;
    font-weight: 400;
    font-size: 40px;
+}
+#skills .page-header{
+   border-bottom: 1px solid #333;
 }
 #skills img{
    width: 125px;
