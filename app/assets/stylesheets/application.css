@@ -74,6 +74,12 @@ nav.navbar{
    font-size: 20px;
    line-height: 30px;
 }
+#portfolio li a.active{
+   background-color: silver;
+}
+#portfolio div.tab-pane{
+   background-color: silver;
+}
 #portfoliojumbotron1{
    background-image: url("/assets/portfolio1.jpg");
    background-size: cover;
