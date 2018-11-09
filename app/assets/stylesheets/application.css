@@ -123,6 +123,11 @@ nav.navbar{
 .container {
     padding: 2px 16px;
 }
+
+#portfolio img{
+   width:100%;
+}
+
 #skills .page-header h2{
    font-family: 'Lato', sans-serfif;
    font-weight: 400;
