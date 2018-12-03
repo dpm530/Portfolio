@@ -62,23 +62,25 @@ nav.navbar{
    border-bottom: 1px solid #333;
 }
 #about img{
-   width:75%;
+   width:70%;
    height:auto;
-   border-radius: 50%;
+   border-radius: 3%;
 }
-#about .col-sm-6 p{
+#about .col-8 p{
    font-family: 'Lato', sans-serfif;
    font-weight: 400;
    text-align: justify;
    font-size: 20px;
    line-height: 30px;
 }
-/* #portfolio li a.active{
-   background-color: silver;
+#portfolio .container h1{
+   margin-bottom: 20px;
 }
-#portfolio div.tab-pane{
-   background-color: silver;
-} */
+#portfolio .tab-content p{
+   text-align: justify;
+   font-size: 20px;
+   line-height: 30px;
+}
 #portfoliojumbotron1{
    background-image: url("/assets/portfolio1.jpg");
    background-size: cover;
@@ -126,6 +128,7 @@ nav.navbar{
 
 #portfolio img{
    width:100%;
+   border-radius: 2%;
 }
 
 #skills .page-header h2{
@@ -182,7 +185,8 @@ nav.navbar{
 } */
 footer {
   background-color: #2f363b;
-  padding: 20px;
+  padding: 25px;
+  color: white;
 }
 /* footer{
    background-color: #222222;
