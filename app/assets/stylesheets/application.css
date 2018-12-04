@@ -20,11 +20,13 @@ nav.navbar{
    border-radius: 0px;
    letter-spacing: 5px;
    background: rgba(0, 0, 0, 0);
-   font-family: 'Lato', sans-serfif;
-   font-weight: 400;
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
 }
 #navbuttons a{
    color:white;
+   margin-right: 25px;
+   font-size:18px;
 }
 #welcome{
    color: white;
@@ -33,17 +35,15 @@ nav.navbar{
    text-shadow: 2px 2px 5px #000000;
 }
 #welcome h1{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 900;
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
    font-size: 70px;
-   color: white;
-   text-shadow: 2px 2px 5px #000000;
    border-bottom: 3px solid white;
    display:inline-block;
 }
 #welcome p{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 900;
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
    font-size: 30px;
 }
 #welcome a{
@@ -53,9 +53,9 @@ nav.navbar{
    padding: 10px;
    border-radius: 5px;
 }
-#about .page-header h2{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 400;
+#about h1{
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
    font-size: 40px;
 }
 #about .page-header{
@@ -67,14 +67,16 @@ nav.navbar{
    border-radius: 3%;
 }
 #about .col-8 p{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 400;
+   font-family: 'Crimson Text', serif;
    text-align: justify;
-   font-size: 20px;
+   font-size: 26px;
    line-height: 30px;
 }
 #portfolio .container h1{
    margin-bottom: 20px;
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
+   font-size: 40px;
 }
 #portfolio .tab-content p{
    text-align: justify;
@@ -101,41 +103,18 @@ nav.navbar{
    font-weight: 400;
    font-size: 20px;
 }
-#portfolio .page-header h2{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 400;
-   font-size: 40px;
-}
-#portfolio .page-header{
-   border-bottom: 1px solid #333;
-}
 #portfolio .card hr{
    border-top: 1px solid black;
 }
-#portfolio #card{
-   height:495px;
-}
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    transition: 0.3s;
-}
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
-}
-.container {
-    padding: 2px 16px;
-}
-
 #portfolio img{
    width:100%;
    border-radius: 2%;
 }
 
-#skills .page-header h2{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 400;
+#skillsSection #skills h1{
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
    font-size: 40px;
-   margin-bottom:35px;
 }
 #skills img{
    width: 130px;
@@ -145,9 +124,9 @@ nav.navbar{
 #skills .row{
    margin-bottom:30px;
 }
-#contact .container h2{
-   font-family: 'Lato', sans-serfif;
-   font-weight: 400;
+#contact h1{
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
    font-size: 40px;
 }
 #contact .container p{
