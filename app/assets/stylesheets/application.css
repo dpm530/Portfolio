@@ -90,6 +90,12 @@ nav.navbar{
    font-size: 25px;
    line-height: 28px;
 }
+#portfolio .tab-content li{
+   font-family: 'Crimson Text', serif;
+   text-align: justify;
+   font-size: 25px;
+   line-height: 28px;
+}
 #portfolio .tab-content a{
    font-family: 'Crimson Text', serif;
    font-size: 22px;
@@ -180,26 +186,8 @@ footer {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
   line-height: 28px;
+  font-weight: bold;
 }
-/* footer{
-   background-color: #222222;
-   padding: 5px;
-   color: #FFFFFF;
-   border-radius: 0px;
-} */
-/* footer p{
-   margin: 5px 2px;
-   color: #7b7b7b;
-}
-footer i{
-   padding: 5px;
-   font-size: 15px;
-   width: 50px;
-   text-align: center;
-   text-decoration: none;
-   margin: 5px 2px;
-   color: white;
-} */
 #contact a.fa{
    padding: 20px;
    font-size: 100px;
@@ -227,4 +215,12 @@ footer i{
 .fa-file-pdf-o{
    background: #dd4b39;
    color: white;
+}
+
+/* Mobile */
+@media only screen and (max-width: 700px){
+
+   #about .container .row{
+      display: block;
+   }
 }
