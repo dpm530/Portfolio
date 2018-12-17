@@ -220,7 +220,65 @@ footer {
 /* Mobile */
 @media only screen and (max-width: 700px){
 
+   /* about */
    #about .container .row{
       display: block;
+   }
+   #about .container .row .col-4{
+      max-width: 100%;
+      text-align: center;
+   }
+   #about .container .row .col-8{
+      max-width: 100%;
+      text-align: center;
+   }
+   #about .container .row .col-8 p{
+      font-size: 23px;
+      margin-top: 20px;
+   }
+
+   /* portfolio */
+   #portfolio nav ul .nav-item{
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+   }
+   #portfolio .row{
+      display: block;
+   }
+   #portfolio .row .col-6{
+      max-width: 100%;
+      text-align: center;
+   }
+   #portfolio .row .col-6 .description{
+      font-size: 23px;
+      margin-top: 20px;
+   }
+
+   /* skillsSection */
+   #skillsSection .row .col-md-2 img{
+      width:50%;
+      height: unset;
+   } 
+
+   /* contact */
+   #contact .row{
+      display: block;
+   }
+   #contact .row .col-7{
+      max-width: 100%;
+   }
+   #contact .row .col-5{
+      max-width: 100%;
+   }
+   #contact .row .col-5 a{
+      font-size: 30px;
+   }
+   #contact .row .col-5 iframe{
+      margin-top: 20px;
+   }
+
+   /* footer */
+   footer{
+      font-size: 7px;
    }
 }
